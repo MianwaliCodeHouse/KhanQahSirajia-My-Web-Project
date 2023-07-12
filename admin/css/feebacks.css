@@ -1,0 +1,47 @@
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+  width: 100%;
+  border: 1px solid #ddd;
+}
+
+th, td {
+  text-align: left;
+  padding: 16px;
+}
+
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+span.read{
+  background-color: green;
+  color: white;
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+  text-transform: capitalize;
+}
+span.new{
+  background-color: yellow;
+padding: 0.5rem 1rem;
+border-radius: 5px;
+text-transform: capitalize;
+}
+
+td a,.delete-all{
+  background-color: rgb(187, 10, 10);
+  color: white;
+  text-decoration: none;
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+}
+.delete-all{
+  display: inline-block;
+  margin: 1rem 0;
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+.dynamicArea>h1{
+  text-align: center;
+  margin-top: 3rem;
+  color: #111;
+}

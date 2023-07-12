@@ -1,0 +1,62 @@
+body{
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+main {
+  max-width: 1200px;
+  margin: 1rem auto 3rem;
+  padding: 1rem;
+}
+
+main>h1 {
+  text-align: center;
+  color: #222;
+  margin: 2rem auto;
+}
+
+.packages {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.package {
+  width: 30%;
+  box-shadow: 0 0 3px 1px rgba(0, 0, 0, 0.205);
+  margin-bottom: 1rem;
+}
+
+.package h2 {
+  padding: 0.3rem;
+  margin: 0.3rem 0 1px;
+}
+
+.package img {
+  width: 100%;
+}
+
+.package p {
+  color: #333;
+}
+
+.package a {
+  background-color: rgb(239, 255, 12);
+  color: #000;
+  font-size: 1.5rem;
+  padding: 0.5rem 1rem;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.package .pbody {
+  padding: 0 1rem 1rem;
+}
+@media(max-width:700px){
+  .packages{
+    flex-direction: column;
+  }
+  .package{
+    width: 100%;
+  }
+}

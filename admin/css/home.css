@@ -1,0 +1,56 @@
+
+.welcome{
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid;
+  padding: 1rem 3rem;
+}
+.welcome h1{
+  color: #111;  
+}
+.welcome a{
+  background-color: #111;
+  color: #fff;
+  text-decoration: none;
+  padding: 0.5rem 1rem;
+  font-weight: bold;
+  font-size: 1.3rem;
+  border-radius: 4px;
+}
+
+.options{
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  gap: 20px;
+  padding: 2rem 0 2rem 0;
+  margin: 3rem 0 0;
+}
+.card{
+  padding: 2rem;
+  border-radius: 5px;
+ 
+  color: #fff;
+  width: 23%;
+  /* min-width: 200px; */
+  margin-bottom: 2rem;
+}
+.card h3{
+  text-align: center;
+  font-weight: 600;
+  font-size: 1.5rem;
+  text-shadow: 1px 1px 3px black;
+}
+.card p{
+  margin-bottom: 0.3rem;
+}
+.options .card:nth-child(1){
+  background-color: rgb(221, 31, 31);
+}
+.options .card:nth-child(2){
+  background-color: rgb(15, 141, 15);
+}
+.options .card:nth-child(3){
+  background-color: rgb(17, 17, 247);
+}
+
